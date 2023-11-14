@@ -5,7 +5,7 @@ font-family: 'BatmanForeverAlternate', sans-serif;
 
 }
 body{
-   background-image: url(img/blue.jpg);
+   background-image: url(../img/blue.jpg);
     margin:0px;
     font-family: 'BatmanForeverAlternate', sans-serif;
     background-repeat: no-repeat;
@@ -45,7 +45,7 @@ img {
     margin-right: 30px;
 }
 
-div#conteudoMain{
+div#main-button{
     position: absolute;
     top: 0;
     left: 0;
@@ -58,13 +58,13 @@ div#conteudoMain{
 
     z-index: 1;
 }
-div#conteudoMain p{
+div#main-button p{
     font-size: 38px;
     color: aliceblue;
     font-weight: 700; 
     max-width: 1000px;
 }
-div#conteudoMain button{
+div#main-button button{
     color: #ffffff;
     padding-left: 40px;
     padding-right: 40px;
@@ -76,7 +76,7 @@ div#conteudoMain button{
     font-family: 'BatmanForeverAlternate', sans-serif;
     cursor: pointer;
 }
-div#conteudoMain button:hover{
+div#main-button button:hover{
     background-color:#1a0aff;
     color: white;
     border: none;
