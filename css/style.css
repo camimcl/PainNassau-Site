@@ -41,7 +41,8 @@ nav a:hover{
     display:flex;
     justify-content: center;
     z-index: 1;
-    margin:10px;
+    margin-top:50px;
+    margin-bottom: 100px;
 }
 #button-div button{
     color: #ffffff;
@@ -56,15 +57,16 @@ nav a:hover{
     cursor: pointer;
 }
 #button-div button:hover{
-    background-color:rgb(0, 140, 255);
-    color: white;
-    border: none;
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: solid black 1px;
     
 }
-main{
-    width: 100%;
-  
+.carousel-item:hover{
+    transition:0.8s ease;
+    transform: scale(1.08);
 }
+
 #carousel{
     width: 100%;
     position: relative;
@@ -114,16 +116,21 @@ main{
 footer{
     width: 100%;
     background-color: rgb(255, 255, 255);
-    display: flex;
-    align-items: center;
     z-index: 4;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    margin-top: 200px;
+}
+.position-relative{
+    position:relative;
 }
 ul{
     margin:0px;
 }
 #footer-img{
    margin-left:35px;
-   margin-top:30px;
+   margin-right:25px;
 }
 #container-csgo, #container-valorant, #container-overwatch, #container-brawhalla, #container-lol{
     padding: 38px 0 36px 90px;
@@ -159,6 +166,12 @@ ul{
     margin: 20px;
     border-radius: 20px;
 }
+#container-rafael:hover, #container-camile:hover, #container-rick:hover, #container-rangel:hover, #container-pedro:hover,#container-mauricio:hover {
+    transform: scale(1.08);
+    transition: 0.8s;
+    background-image: url(../img/Projeto\ Remover\ fundo.jpg);
+    
+}
 #mainrosterpage{
     display: flex;
     flex-direction: row;
@@ -176,4 +189,61 @@ ul{
 #container-rafael p, #container-camile p, #container-rick p, #container-rangel p, #container-pedro p, #container-mauricio p{
     font-size: 24px;
     font-weight: lighter;
+}
+#container-pedro{
+    background-image: url(../img/players/pedro.jpeg);
+}
+#container-rick{
+    background-image: url(../img/players/rick.jpeg);
+}
+#container-camile{
+    background-image: url(../img/players/camile.jpeg);
+}
+#container-rafael{
+    background-image: url(../img/players/rafael.jpg);
+}
+.container-about{
+    padding-left:25px;
+    width: 1200px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.39);
+    border: 3.5px solid black;
+    box-shadow: 0 2px 30px 5px rgba(0,0,0,.105004);
+    cursor: pointer;
+    font-size: 20px;
+    margin: 20px;
+    border-radius: 20px;
+  
+}
+.container-about:hover{
+    transition:0.8s ease;
+    transform: scale(1.07);
+    background-color: rgba(0, 0, 0, 0.766);
+    color: white;
+}
+
+.texto-about{
+    text-align: left;
+    width: 550px;
+    height: 100px;
+    display: flex;
+    margin-top: 60px;
+}
+
+.video-about{
+    text-align: right;
+    margin-right: 45px;
+    margin-top: -100px;
+}
+#mainabout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#mainabout h3{
+    color: rgb(255, 255, 255);
+}
+iframe{
+    border-radius: 20px;
 }

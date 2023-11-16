@@ -42,16 +42,20 @@ main{
 footer{
     width: 100%;
     background-color: rgb(255, 255, 255);
-    display: flex;
-    align-items: center;
     z-index: 4;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+.position-relative{
+    position:relative;
 }
 ul{
     margin:0px;
 }
 #footer-img{
     margin-left:35px;
-    margin-top:30px;
+    margin-right:25px;
     left:0;
  }
 
@@ -63,6 +67,7 @@ ul{
     box-shadow: 0 2px 30px 5px rgba(0,0,0,.105004);
     cursor: pointer;
     font-size: 25px;
+    border-radius: 20px;
     margin: 60px;
 }
 #container-csgo p, #container-valorant p, #container-overwatch p, #container-brawhalla p, #container-lol p{
