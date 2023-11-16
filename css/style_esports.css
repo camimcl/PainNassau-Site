@@ -1,0 +1,106 @@
+@import url('https://fonts.cdnfonts.com/css/batmanforeveralternate');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&family=Roboto&display=swap');
+body{
+    background-image: url(../img/blue.jpg);
+    margin:0px;
+    font-family: 'BatmanForeverAlternate', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+   font-size: 20px; 
+   font-family: 'BatmanForeverAlternate', sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+nav {
+    text-align: left;
+    width: 100%;
+    z-index: 5;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding:12px;
+    display: flex;
+    align-items: center;
+}
+nav a {
+    text-decoration: none; /* Remova a decoração de texto (sublinhado) dos links, se necessário */
+    margin:30px; /* Espaçamento entre os elementos de ancoragem */
+                /* Alinha verticalmente com base no meio da linha de base */
+    transition: 0.5s;
+    
+}
+nav a:hover{
+    color: #0adaff;
+    font-size: 22px;
+}
+main{
+    width: 100%;
+}
+footer{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    z-index: 4;
+}
+ul{
+    margin:0px;
+}
+#footer-img{
+    margin-left:35px;
+    margin-top:30px;
+    left:0;
+ }
+
+#container-csgo, #container-valorant, #container-overwatch, #container-brawhalla, #container-lol{
+    width: 800px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    box-shadow: 0 2px 30px 5px rgba(0,0,0,.105004);
+    cursor: pointer;
+    font-size: 25px;
+    margin: 60px;
+}
+#container-csgo p, #container-valorant p, #container-overwatch p, #container-brawhalla p, #container-lol p{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff  ;
+    -webkit-text-stroke: 0.5px #000000a4;
+    padding-left: 25px;
+}
+#mainesportspage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgteam{
+    position: absolute;
+
+}
+.caixa_time p{
+    position:relative;
+    margin: 0px;
+    font-size: 35px;
+}
+.caixa_time h4{
+    padding-left: 25px;
+    position: relative;
+    margin-top: 20px;
+}
+#container-lol{
+    background-image: url("../img/Ezreal_20.png");
+}
+#container-brawhalla{
+    background-image: url("../img/PPHkGC-1602307317840.jpg");
+}
+#container-valorant{
+    background-image: url("../img/valorant-agentes_1.jpg");
+}
+#container-csgo{
+    background-image: url("../img/");
+}
