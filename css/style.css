@@ -158,18 +158,23 @@ ul{
     padding-left:25px ;
     width: 390px;
     height: 310px;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid black;
+    background-color: rgb(24, 93, 171);
+    border: 3px solid black;
     box-shadow: 0 2px 30px 5px rgba(0,0,0,.105004);
     cursor: pointer;
     font-size: 25px;
     margin: 20px;
     border-radius: 20px;
+    color: #e5eef6;;
+    background-image: url(../img/Projeto\ Remover\ fundo-2.png);
+    background-size: cover;
+
+   
 }
 #container-rafael:hover, #container-camile:hover, #container-rick:hover, #container-rangel:hover, #container-pedro:hover,#container-mauricio:hover {
     transform: scale(1.08);
     transition: 0.8s;
-    background-image: url(../img/Projeto\ Remover\ fundo.jpg);
+    color: #000000;
     
 }
 #mainrosterpage{
@@ -190,23 +195,23 @@ ul{
     font-size: 24px;
     font-weight: lighter;
 }
-#container-pedro{
+#container-pedro:hover{
     background-image: url(../img/players/pedro.jpeg);
 }
-#container-rick{
+#container-rick:hover{
     background-image: url(../img/players/rick.jpeg);
 }
-#container-camile{
+#container-camile:hover{
     background-image: url(../img/players/camile.jpeg);
 }
-#container-rafael{
+#container-rafael:hover{
     background-image: url(../img/players/rafael.jpg);
 }
 .container-about{
     padding-left:25px;
     width: 1200px;
     height: 400px;
-    background-color: rgba(255, 255, 255, 0.39);
+    background-color:#e5eef6;
     border: 3.5px solid black;
     box-shadow: 0 2px 30px 5px rgba(0,0,0,.105004);
     cursor: pointer;
@@ -241,9 +246,10 @@ ul{
     justify-content: center;
     align-items: center;
 }
-#mainabout h3{
-    color: rgb(255, 255, 255);
-}
 iframe{
     border-radius: 20px;
+}
+.txtmain{
+    margin-bottom: 40px;
+    color: white;
 }
