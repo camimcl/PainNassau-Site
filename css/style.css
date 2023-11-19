@@ -143,23 +143,7 @@ ul{
    margin-left:35px;
    margin-right:25px;
 }
-#container-csgo, #container-valorant, #container-overwatch, #container-brawhalla, #container-lol{
-    padding: 38px 0 36px 90px;
-    width: 800px;
-    height: 400px;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid black;
-    box-shadow: 0 2px 30px 5px rgba(0,0,0,.105004);
-    cursor: pointer;
-    font-size: 25px;
-}
-#container-csgo p, #container-valorant p, #container-overwatch p, #container-brawhalla p, #container-lol p{
-    font-family: 'Anton', sans-serif;
-    font-size: 40px;
-    font-weight: lighter;
-    color: #0a58ff;
-    -webkit-text-stroke: 0.5px #000000a4;
-}
+
 #mainesportspage{
     display: flex;
     flex-direction: column;
