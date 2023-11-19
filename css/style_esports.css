@@ -108,6 +108,7 @@ ul{
     color: #ffffff  ;
     padding-left: 25px;
     margin: 30px;
+    margin-bottom: 100px;
 }
 #container-lol:hover{
     background-image: url(../img/Ezreal_20.png);

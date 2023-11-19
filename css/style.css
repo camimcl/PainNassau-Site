@@ -1,11 +1,14 @@
 @import url('https://fonts.cdnfonts.com/css/batmanforeveralternate');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+}
 body{
     background-image: linear-gradient(45deg, #000505ea, #000000);
-    margin: 0px;
-    font-family: 'BatmanForeverAlternate', sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0px;
+    font-family: 'BatmanForeverAlternate', sans-serif;
 }
 nav a{
    font-size: 20px; 
@@ -130,9 +133,10 @@ footer{
     z-index: 4;
     bottom: 0;
     left: 0;
-    position: absolute;
-    margin-top: 200px;
+    margin-top: 100px;
+    position: relative;
 }
+
 .position-relative{
     position:relative;
 }
@@ -148,6 +152,7 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 #container-rafael, #container-camile, #container-rick, #container-rangel, #container-pedro,#container-mauricio{
     padding-left:25px ;
@@ -343,24 +348,25 @@ margin-left: 50px;
     font-size: 3rem;
     font-weight: bold;
   }
-
-  .alinhamento-contact{
-    text-align: center;
-      }
-      .container-contact{
-        padding-left:25px;
-        width: 1780px;
+  #about-main{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+    .container-contact{
+        width: 1600px;
         height: 400px;
         background-color:#e5eef6cd;
         border: 3.5px solid black;
         box-shadow: 0 2px 30px 5px rgba(0,0,0,.105004);
-        cursor: pointer;
         font-size: 20px;
         margin: 20px;
         border-radius: 20px;
         transition:0.8s ease;
-       
-    }
+        margin-bottom: 30%;
+    }   
+    
     
     .container-contact:hover{
         background-image: linear-gradient(45deg, #aa1f2ba3, #111111);
