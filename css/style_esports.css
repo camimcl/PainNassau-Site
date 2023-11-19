@@ -66,23 +66,19 @@ ul{
     border: 1px solid black;
     box-shadow: 0 2px 30px 5px rgba(0,0,0,.105004);
     cursor: pointer;
-    font-size: 25px;
+    font-size: 50px;
     border-radius: 20px;
     margin: 60px;
     transition: 0.8s ease;
+
 }
 #container-csgo:hover, #container-valorant:hover, #container-overwatch:hover, #container-brawhalla:hover, #container-lol:hover{
     transform: scale(1.08);
     font-size: 0;
-
 }
 #container-csgo p, #container-valorant p, #container-overwatch p, #container-brawhalla p, #container-lol p{
-    font-family: 'Anton', sans-serif;
-    font-size: 50px;
-    font-weight: bold;
-    color: #b32020  ;
-    -webkit-text-stroke: 1x #000000a4;
-    padding-left: 25px;
+   margin: 20px;
+   font-size: 30px;
 }
 #mainesportspage{
     display: flex;
@@ -94,26 +90,82 @@ ul{
 
 }
 .caixa_time p{
-    position:relative;
     margin: 0px;
     font-size: 35px;
 }
 .caixa_time h4{
     padding-left: 25px;
     position: relative;
-    margin-top: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 #container-lol{
-    background-image: url("../img/Ezreal_20.png");
-}
-#container-brawhalla{
-    background-image: url("../img/PPHkGC-1602307317840.jpg");
-}
-#container-valorant{
-    background-image: url("../img/valorant-agentes_1.jpg");
-}
-#container-csgo{
-    background-image: url("../img/Counter-Strike-2-Test-Build-Leaked-4.webp");
+    background-image: url("../img/lol.jpg");
     background-position: center;
     background-size: cover;
+    font-family: 'BatmanForeverAlternate', sans-serif;
+    font-weight: bold;
+    color: #ffffff  ;
+    padding-left: 25px;
+    margin: 30px;
+}
+#container-lol:hover{
+    background-image: url(../img/Ezreal_20.png);
+}
+#container-brawhalla{
+    background-image: url("../img/braw.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: 'BatmanForeverAlternate', sans-serif;
+    font-weight: bold;
+    color: #ffffff  ;
+    padding-left: 25px;
+    margin: 30px;
+}
+#container-valorant{
+    background-image: url("../img/VALORANT_1.png");
+    background-position: center;
+    background-size: cover;
+    font-family: 'BatmanForeverAlternate', sans-serif;
+    font-weight: bold;
+    color: #ffffff  ;
+    padding-left: 25px;
+    margin: 30px;;
+}
+#container-csgo{
+  background-image: url(../img/cs2.png);
+    background-position: center;
+    background-size: cover;
+    font-family: 'BatmanForeverAlternate', sans-serif;
+    font-weight: bold;
+    color: #ffffff  ;
+    padding-left: 25px;
+    margin: 30px;
+
+}
+#container-csgo:hover{
+    background-image: url(../img/cs-foto.png);
+    background-size: cover;
+    background-position: bottom;
+    font-size:0px;
+    color: rgb(212, 22, 22);
+    
+}
+#container-overwatch{
+    background-image: url(../img/ow.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: 'BatmanForeverAlternate', sans-serif;
+    font-weight: bold;
+    color: #ffffff  ;
+    padding-left: 25px;
+    margin: 30px;
+}
+#container-overwatch:hover{
+    background-image: url(../img/jogo-overwatch.jpg);
+    color: rgb(0, 0, 0);
+}
+#container-brawhalla:hover{
+    background-image: url(../img/PPHkGC-1602307317840.jpg);
+    color: crimson;
 }
