@@ -7,7 +7,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-a{
+nav a{
    font-size: 20px; 
    font-family: 'BatmanForeverAlternate', sans-serif;
     text-decoration: none;
@@ -343,6 +343,7 @@ margin-left: 50px;
     font-size: 3rem;
     font-weight: bold;
   }
+
   .alinhamento-contact{
     text-align: center;
       }
@@ -358,6 +359,7 @@ margin-left: 50px;
         margin: 20px;
         border-radius: 20px;
         transition:0.8s ease;
+       
     }
     
     .container-contact:hover{
@@ -366,4 +368,25 @@ margin-left: 50px;
         background-color: #aa1f2ba3;
         color: white;
         border: white solid 3px;
+        
     }
+    li{
+    width: 400px;    
+    margin: 10px;
+    }
+    
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .rede-joga a{
+    text-decoration: none;
+    color: #000000;
+    }
+    
+   ul:hover{
+    color: white;
+   }
