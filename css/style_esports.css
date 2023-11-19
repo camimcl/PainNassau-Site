@@ -111,6 +111,7 @@ ul{
 }
 #container-lol:hover{
     background-image: url(../img/Ezreal_20.png);
+    color: black;
 }
 #container-brawhalla{
     background-image: url("../img/braw.jpg");
@@ -131,6 +132,9 @@ ul{
     color: #ffffff  ;
     padding-left: 25px;
     margin: 30px;;
+}
+#container-valorant:hover{
+    background-image:url(../img/valorant-agentes_1.jpg);
 }
 #container-csgo{
   background-image: url(../img/cs2.png);
