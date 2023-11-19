@@ -73,13 +73,15 @@ ul{
 }
 #container-csgo:hover, #container-valorant:hover, #container-overwatch:hover, #container-brawhalla:hover, #container-lol:hover{
     transform: scale(1.08);
+    font-size: 0;
+
 }
 #container-csgo p, #container-valorant p, #container-overwatch p, #container-brawhalla p, #container-lol p{
     font-family: 'Anton', sans-serif;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
-    color: #ffffff  ;
-    -webkit-text-stroke: 0.5px #000000a4;
+    color: #b32020  ;
+    -webkit-text-stroke: 1x #000000a4;
     padding-left: 25px;
 }
 #mainesportspage{
@@ -111,5 +113,7 @@ ul{
     background-image: url("../img/valorant-agentes_1.jpg");
 }
 #container-csgo{
-    background-image: url("../img/");
+    background-image: url("../img/Counter-Strike-2-Test-Build-Leaked-4.webp");
+    background-position: center;
+    background-size: cover;
 }
