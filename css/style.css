@@ -359,4 +359,27 @@ margin-left: 50px;
     font-size: 3rem;
     font-weight: bold;
   }
-  
+  .alinhamento-contact{
+    text-align: center;
+      }
+      .container-contact{
+        padding-left:25px;
+        width: 1780px;
+        height: 400px;
+        background-color:#e5eef6cd;
+        border: 3.5px solid black;
+        box-shadow: 0 2px 30px 5px rgba(0,0,0,.105004);
+        cursor: pointer;
+        font-size: 20px;
+        margin: 20px;
+        border-radius: 20px;
+        transition:0.8s ease;
+    }
+    
+    .container-contact:hover{
+        background-image: linear-gradient(45deg, #aa1f2ba3, #111111);
+        transform: scale(1.08);
+        background-color: #aa1f2ba3;
+        color: white;
+        border: white solid 3px;
+    }
